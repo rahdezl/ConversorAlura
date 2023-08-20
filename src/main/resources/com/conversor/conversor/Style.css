@@ -1,0 +1,52 @@
+.root{
+    -fx-background-color: #F3F5FC;
+}
+.titulo{
+    -fx-font-family: 'sans-serif';
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+
+}
+.button{
+    -fx-background-color: #0A3871;
+    -fx-text-fill: #ffffff;
+    -fx-border-radius: 5px;
+    -fx-font-weight: bold;
+
+
+}
+.combo-box{
+    -fx-background-color: #F3F5FC;
+    -fx-text-fill: #0A3871;
+    -fx-border-color: #0A3871;
+    -fx-border-radius: 5px;
+    -fx-aligment: center;
+}
+.combo-box:pressed{
+    -fx-background-color: #0A3871;
+
+}
+
+.button:hover{
+    -fx-cursor: hand;
+}
+
+.label{
+    -fx-text-fill: #0A3871;
+    -fx-font-weight: bold;
+
+}
+
+.text-field{
+    -fx-alignment: center;
+    -fx-background-color: #F3F5FC;
+    -fx-effect: dropshadow( one-pass-box, #0A3871 , 15 , 0.0 , 0 , 10)
+
+
+}
+.labelresultado{
+    -fx-font-family: 'sans-serif';
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+
+}

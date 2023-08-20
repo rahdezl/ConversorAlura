@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" opacity="0.9" prefHeight="500.0" prefWidth="400.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.conversor.conversor.Controller.MainViewController">
+   <children>
+      <Label fx:id="txtTitle" text="Conversor" textFill="#bb86fc">
+         <font>
+            <Font name="SansSerif Bold" size="30.0" />
+         </font>
+         <padding>
+            <Insets bottom="20.0" />
+         </padding>
+         <VBox.margin>
+            <Insets bottom="30.0" />
+         </VBox.margin>
+      </Label>
+      <Label text="Seleccione el tipo de conversor" textFill="#bb86fc">
+         <padding>
+            <Insets bottom="10.0" />
+         </padding>
+      </Label>
+      <Button fx:id="btnMonedas" mnemonicParsing="false" onAction="#getMonedasView" prefHeight="47.0" prefWidth="154.0" text="Monedas" textFill="#bb86fc">
+         <VBox.margin>
+            <Insets bottom="30.0" />
+         </VBox.margin>
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnTemperatura" mnemonicParsing="false" onAction="#getTemperaturaView" prefHeight="47.0" prefWidth="154.0" text="Temperatura" textFill="#bb86fc">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+   </children>
+</VBox>
